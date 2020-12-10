@@ -1,0 +1,5 @@
+type TEST @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  FirstName: String
+  LastName: String
+}
